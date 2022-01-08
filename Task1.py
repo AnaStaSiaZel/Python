@@ -1,9 +1,10 @@
 a = 2
 b = 5
 c = 9
-d = a + b
-e = 'New knowledge'
-f = ' and interesting lesson'
 print(a, b, c)
+d = input('Сколько тебе лет?: ')
+e = input('В каком городе ты живешь?: ')
+f = input('На какой улице ты живешь?: ')
+g = input('Какой номер твоего дома?: ')
 print(d)
-print(e + f)
+print(e, f, g)
